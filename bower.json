@@ -1,0 +1,20 @@
+{
+  "name": "HTL3R-Curriculum",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cheissenberger/HTL3R-Curriculum",
+  "authors": [
+    "Raffael Tunder",
+    "Thomas Frickh",
+    "Christopher Heissenberger",
+    "Michael Langstoeger"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -31,7 +31,10 @@ body{
 	margin-left:auto;
 	margin-right:auto;
 }
-
+/*
+	@author: Thomas Frickh
+	Navigationsleiste (links)
+*/
 #div_navigation_form{
 	width:15%;
 	height:100vh;
@@ -43,6 +46,10 @@ body{
 	padding-left:10px;
 	padding-right:10px;
 }
+/*
+	@author: Thomas Frickh
+	Content (rechts)
+*/
 #div_content_form{
 	background-color:#e9e9e9;
 	margin-top:8px;
@@ -76,8 +83,30 @@ body{
 .td_bilder{
 	padding-top:4.5px;
 }
-
-
+/*
+	@author: Thomas Frickh
+	Link "Menü" keine besonderen Effekte zuweisen bei Event-Call
+*/
+#div_navigation_form h1 a:active{
+	text-decoration:none;
+	text-underline:none;
+	color:grey;
+}
+#div_navigation_form h1 a:hover{
+	text-decoration:none;
+	text-underline:none;
+	color:grey;
+}
+#div_navigation_form h1 a:visited{
+	text-decoration:none;
+	text-underline:none;
+	color:grey;
+}
+#div_navigation_form h1 a:link{
+	text-decoration:none;
+	text-underline:none;
+	color:grey;
+}
 
 
 

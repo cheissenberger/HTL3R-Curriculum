@@ -1,4 +1,4 @@
-﻿<!doctype html>
+<!doctype html>
 <html>
     <head>
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
@@ -10,12 +10,12 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="author" href="humans.txt">
     </head>
-    <body>
+    <body>	    
         <div id="div_login_form">
 			<div style="height:50px; border-bottom:1px solid #ededed; text-align:center; color:grey; font-size:30px;"><img style="margin-top:-10px;" src="pictures/Login_Safe.png" alt="Login-Symbol" height="28" width="28"><span style="margin-right:31px;">Login</span></div>
 			<div style="margin-top:85px;">
 				<table>
-					<form method="post">
+					<form method="post" action="login.php">
 						<tr><td><label for="Name">Name</label><br /><input class="form-control" type="text" id="Name" name="name" size="50" autofocus required></td></tr>
 						<tr><td><label for="passwort">Passwort</label><br /><input type="password" class="form-control" id="passwort" name="pw" size="50" autocomplete="off" required></td></tr>
 						<tr><td><br /><input type="submit" value="Login" class="btn btn-default" style="width:410px;"></td></tr>

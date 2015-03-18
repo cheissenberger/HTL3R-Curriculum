@@ -2,13 +2,14 @@
 echo "<h3>LDAP query Test</h3>";
 echo "Verbindung ...";
 
-
-$ldaprdn  = 'user@htlw3r.ac.at';//cn=, cn=Users, dc=HTLW3R, dc=ac, dc=at';     // ldap rdn oder dn
-$ldappass = '';  // entsprechendes password
+$ldaprdn  = htmlspecialchars($_POST["name"]).'@htlw3r.ac.at';//cn=user, cn=Users, dc=HTLW3R, dc=ac, dc=at';
+$ldappass = htmlspecialchars($_POST["pw"]);  // entsprechendes password
 
 // verbinden zum ldap server
 $ldapconn = ldap_connect("ldap://10.0.0.210/")/*ldap://10.0.0.210/*/
     or die("Keine Verbindung zum LDAP server möglich.");
+    
+// Todo catch errors and handle them appropriately
 
 if ($ldapconn) {
 

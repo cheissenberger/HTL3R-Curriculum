@@ -7,7 +7,7 @@ $ldaprdn  = 'user@htlw3r.ac.at';//cn=, cn=Users, dc=HTLW3R, dc=ac, dc=at';     /
 $ldappass = '';  // entsprechendes password
 
 // verbinden zum ldap server
-$ldapconn = ldap_connect("http://10.0.0.210/")/*ldap://10.0.0.210/*/
+$ldapconn = ldap_connect("ldap://10.0.0.210/")/*ldap://10.0.0.210/*/
     or die("Keine Verbindung zum LDAP server möglich.");
 
 if ($ldapconn) {

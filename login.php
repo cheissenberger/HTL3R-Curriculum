@@ -5,7 +5,7 @@
 	$ldapconn = ldap_connect("ldap://10.0.0.210/") or die("Keine Verbindung zum Server möglich.");
 	    
 	// Todo: catch errors and handle them appropriately
-	
+
 	if ($ldapconn) {
 	    $ldapbind = ldap_bind($ldapconn, $ldaprdn, $ldappass);
 
@@ -16,7 +16,7 @@
 			    if ($val == 0) {
 				    session_unset();
 					session_destroy();
-				    die("Keine ausreichenden Rechte");
+				    die("Bitte melden Sie sich mit einem Lehrer Account an oder wenden Sie sich an die Direktion der Schule!");
 			    }
 			    else if ($val == 1) {
 				    $_SESSION['user'] = htmlspecialchars($_POST["name"]);

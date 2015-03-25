@@ -23,7 +23,7 @@
 					</form>
 				</table>
 			</div>
-			<div style="height:50px; border-top:1px solid #ededed; text-align:center; color:grey; padding:20px; margin-top:105px;"><a href="impressum.html">Impressum</a> - <a href="contact.html">Kontakt</a> - <a href="faq.html">FAQ</a></div>
+			<div id="div_links_ikf" style="height:50px; border-top:1px solid #ededed; text-align:center; color:grey; padding:20px; margin-top:110px;"><a href="impressum.html">Impressum</a> - <a href="contact.html">Kontakt</a> - <a href="faq.html">FAQ</a></div>
 		</div>
         
         <script src="js/main.js"></script>

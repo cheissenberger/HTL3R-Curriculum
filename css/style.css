@@ -49,6 +49,7 @@ body{
 	color:grey;
 	padding-left:10px;
 	padding-right:10px;
+    min-width: 200px;
 }
 /*
 	@author: Thomas Frickh
@@ -73,7 +74,7 @@ body{
 	margin-top:4px;
 	margin-bottom:4px;
 	font-size:20px;
-	transition: 0.4s;
+	transition: 0.3s;
     
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -97,22 +98,7 @@ body{
 	@author: Thomas Frickh
 	Link "Curriculum" keine besonderen Effekte zuweisen bei Event-Call
 */
-#div_navigation_form h1 a:active{
-	text-decoration:none;
-	text-underline:none;
-	color:grey;
-}
-#div_navigation_form h1 a:hover{
-	text-decoration:none;
-	text-underline:none;
-	color:grey;
-}
-#div_navigation_form h1 a:visited{
-	text-decoration:none;
-	text-underline:none;
-	color:grey;
-}
-#div_navigation_form h1 a:link{
+#div_navigation_form h1 a:active, #div_navigation_form h1 a:hover, #div_navigation_form h1 a:visited, #div_navigation_form h1 a:link{
 	text-decoration:none;
 	text-underline:none;
 	color:grey;
@@ -121,17 +107,6 @@ body{
     @author: Thomas Frickh
     Ausbildungszweige Div
 */
-/*#div_ausbildungszweige div{
-    width: 300px;
-    height: 40px;
-    background-color: white;
-    float: left;
-    text-align: center;
-    padding-top: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}*/
-
 #div_ausbildungszweige{
     width: 1232px;
     height: 500px;
@@ -177,7 +152,25 @@ body{
     color: grey;
     text-align: center;
 }
+/*
+    @author: Thomas Frickh
+    Für kleinere Bildschirme
+*/
 @media only screen and (max-width: 1500px) {
+    .div_links_navigation{
+        font-size: 15px;
+    }
+    #div_navigation_form h1{
+        font-size: 25px;
+    }
+    .div_content_form{
+        width:83.25%;
+    }
+}
+
+#div_links_ikf a:hover,#div_links_ikf a:visited,#div_links_ikf a:link,#div_links_ikf a:active {
+    color: grey;
+}@media only screen and (max-width: 1500px) {
     .div_links_navigation{
         font-size: 15px;
     }

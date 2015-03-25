@@ -2,11 +2,13 @@
 	@author: Thomas Frickh
 	Allgemeine Font und Background-Color
 */
+html{
+    height: 100%;
+}
 body{
 	font-family:'Arial';
 	background-color:#f6f6f6;
-    overflow: hidden;
-    padding: 8px;
+    height: 100%;
 }
 /*
 	@auhtor: Thomas Frickh
@@ -39,12 +41,10 @@ body{
 */
 #div_navigation_form{
 	width:15%;
-	height:100vh;
+	height:100%;
 	background-color:white;
 	border-radius:2px;
-	margin-right: 8px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+	margin: 8px;
 	float:left;
 	color:grey;
 	padding-left:10px;
@@ -57,8 +57,8 @@ body{
 #div_content_form{
 	background-color:#e9e9e9;
 	margin-top:8px;
-	width:84.5%;
-	height:100vh;
+    height: 100%;
+	width:83.85%;
 	float:left;
 }
 /*

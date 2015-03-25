@@ -18,7 +18,7 @@
 					<form method="post" action="login.php">
 						<tr><td><label for="Name">Name</label><br /><input class="form-control" type="text" id="Name" name="name" size="50" autofocus required></td></tr>
 						<tr><td><label for="passwort">Passwort</label><br /><input type="password" class="form-control" id="passwort" name="pw" size="50" autocomplete="off" required></td></tr>
-						<tr><td><br /><input type="submit" value="Login" class="btn btn-default" style="width:410px;"></td></tr>
+						<tr><td><br /><input type="submit" value="Login" class="btn btn-default" style="width:420px;"></td></tr>
 						<tr><td><a href="#">Passwort vergessen?</a></td></tr>
 					</form>
 				</table>

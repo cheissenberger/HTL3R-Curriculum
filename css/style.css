@@ -183,3 +183,7 @@ body{
         width:83.25%;
     }
 }
+
+.top-nav>li>a {
+    color:white;   
+}

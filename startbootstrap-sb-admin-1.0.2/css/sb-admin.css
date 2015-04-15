@@ -21,8 +21,17 @@ body {
     padding-left: 0;
 }
 
+#stundentafel th{
+    text-align: center;
+}
+
+#stundentafel td:not(.non_center){
+    text-align: center;
+}
+
 #page-wrapper {
     width: 100%;
+    height: 100vh;
     padding: 0;
     background-color: #fff;
 }

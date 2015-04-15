@@ -42,7 +42,7 @@
     <div id="wrapper">
 
         <!-- Navigation -->
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -58,7 +58,7 @@
               
 
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Andy Bichl <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="#"><i class="fa fa-fw fa-user"></i> Profil</a>
@@ -82,7 +82,7 @@
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="glyphicon glyphicon-education"></i> Ausbildungszweige <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
-                            <li>
+                            <li class="active">
                                 <a href="it.html">Informationstechnologie</a>
                             </li>
                             <li>
@@ -94,7 +94,7 @@
                         </ul>
                     </li>
                     
-                    <li  class="active">
+                    <li>
                         <a href="lehrplaene.html"><i class="glyphicon glyphicon-book"></i> Lehrpläne</a>
                     </li>
                     
@@ -117,7 +117,46 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
- 
+            <div id="stundentafel">
+                <table class="table table-hover">
+				<thead>
+				  <tr>
+					<th>#</th>
+					<th>Jahrgang 1</th>
+					<th>Jahrgang 2</th>
+					<th>Jahrgang 3</th>
+					<th>Jahrgang 4</th>
+					<th>Jahrgang 5</th>
+				  </tr>
+				</thead>
+				<tbody>
+				  <tr>
+					<td class="non_center">Mathematik</td>
+					<td>3</td>
+					<td>4</td>
+					<td>3</td>
+					<td>4</td>
+					<td>1</td>
+				  </tr>
+				  <tr>
+					<td class="non_center">Deutsch</td>
+					<td>4</td>
+					<td>3</td>
+					<td>7</td>
+					<td>8</td>
+					<td>1</td>
+				  </tr>
+				  <tr>
+					<td class="non_center">Englisch</td>
+					<td>7</td>
+					<td>3</td>
+					<td>3</td>
+					<td>4</td>
+					<td>1</td>
+				  </tr>
+				</tbody>
+			  </table>
+            </div>
                 <!-- /.row -->
 
             </div>

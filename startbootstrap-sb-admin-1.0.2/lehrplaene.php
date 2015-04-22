@@ -23,6 +23,9 @@
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+	<!-- Custom Fonts the 2nd-->
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -132,6 +135,7 @@
                             <th>Name</th>
                             <th>Richtung</th>
                             <th>Status</th>
+                           
                           </tr>
                         </thead>
                         <tbody>
@@ -139,16 +143,19 @@
                             <td>Lehrplan 1</td>
                             <td>Medientechnik</td>
                             <td>aktuell</td>
+							<td><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 2</td>
                             <td>Medientechnik</td>
                             <td>ausgelaufen</td>
+							<td><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 1</td>
                             <td>Netzwerktechnik</td>
                             <td>aktuell</td>
+							<td><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                         </tbody>
                       </table> 

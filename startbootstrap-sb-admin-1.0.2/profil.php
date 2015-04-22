@@ -131,16 +131,16 @@
                 </div>
                 <hr>
                 <h3>Favoriten</h3><br>
-                <div class="panel panel-default">
+                <div class="panel panel-default div_favoriten">
                     <div class="panel-body">
                         <div style="float:left; padding-top:4px">Favorit 1</div>
-                        <div class="fa fa-minus-circle fa-2x" style="float:right;"></div>
+                        <div class="fa fa-minus-circle fa-2x icon_favoriten" style="float:right;"></div>
                     </div>
                 </div>
-                <div class="panel panel-default">             
+                <div class="panel panel-default div_favoriten">             
                     <div class="panel-body">
                         <div style="float:left; padding-top:4px">Favorit 2</div>
-                        <div class="fa fa-minus-circle fa-2x" style="float:right"></div>
+                        <div class="fa fa-minus-circle fa-2x icon_favoriten" style="float:right"></div>
                     </div>
                 </div>
                 <!-- /.row -->

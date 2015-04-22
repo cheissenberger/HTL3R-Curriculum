@@ -113,6 +113,14 @@ body {
     white-space: normal;
 }
 
+.div_favoriten:hover{
+	background-color: #FAFAFA;
+}
+
+.icon_favoriten:hover{
+	color: #CC0000;
+}
+
 ul.message-dropdown {
     padding: 0;
     max-height: 250px;

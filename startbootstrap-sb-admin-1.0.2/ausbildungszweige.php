@@ -77,7 +77,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="index.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                     <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="glyphicon glyphicon-education"></i> Ausbildungszweige <i class="fa fa-fw fa-caret-down"></i></a>
@@ -95,18 +95,18 @@
                     </li>
                     
                     <li>
-                        <a href="lehrplaene.html"><i class="glyphicon glyphicon-book"></i> Lehrpläne</a>
+                        <a href="lehrplaene.php"><i class="glyphicon glyphicon-book"></i> Lehrpläne</a>
                     </li>
                     
                     <li>
-                        <a href="profil.html"><i class="fa fa-fw fa-user"></i>Profil</a>
+                        <a href="profil.php"><i class="fa fa-fw fa-user"></i>Profil</a>
                     </li>
                     
                     <li>
-                        <a href="faq.html"><i class="glyphicon glyphicon-question-sign"></i> FAQ</a>
+                        <a href="faq.php"><i class="glyphicon glyphicon-question-sign"></i> FAQ</a>
                     </li>
                     <li>
-                        <a href="impressum.html"><i class="glyphicon glyphicon-list-alt"></i> Impressum</a>
+                        <a href="impressum.php"><i class="glyphicon glyphicon-list-alt"></i> Impressum</a>
                     </li>
       
                 </ul>

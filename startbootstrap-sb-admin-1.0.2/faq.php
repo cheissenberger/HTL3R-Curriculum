@@ -117,7 +117,16 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
- 
+                <p></p><h4><b>Welchen Nutzen hat das Curriculum?</b></h5>
+                Das Curriculum soll den Lehrern und Lehrerinnen der HTL3-Rennweg die Organasiation und Stoffabstimmung ihrer Fächer zu anderen Fächern erleichtern.s
+                </p>
+                <p></p><h4><b>Wie kann ich mir die Lehrpläne ansehen?</b></h5>
+                Eine allgemeine Übersicht der Lehrpläne befindet sich unter dem Punkt Lehrpläne in der Navigationsleiste links.<br />
+                Hier werden sowohl die ausgelaufenen als auch auch die aktuellen Lehrpläne der verschiedenen Ausbildungsrichtungen angezeigt.
+                </p>
+                <p></p><h4><b>Wie kann ich bestimmten Lehrplänen folgen?</b></h5>
+                Jedem Lehrplan kann ganz einfach gefolgt werden, indem man ihn zu den Favoriten hinzufügt. Die Favoriten lassen sich in den Profileinstellungen einsehen.
+                </p>
                 <!-- /.row -->
 
             </div>

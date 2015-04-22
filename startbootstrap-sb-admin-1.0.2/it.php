@@ -133,7 +133,7 @@
 				<tbody>
 				  <tr>
 					<td class="non_center">Mathematik</td>
-					<td><div id="radius">3</div></td>
+					<td>3</td>
 					<td>4</td>
 					<td>3</td>
 					<td>4</td>
@@ -149,7 +149,7 @@
 				  </tr>
 				  <tr>
 					<td class="non_center">Englisch</td>
-					<td class="hello">7</td>
+					<td>7</td>
 					<td>3</td>
 					<td>3</td>
 					<td>4</td>

@@ -22,6 +22,9 @@
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -125,6 +128,20 @@
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email:</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" placeholder="lalla@aon.at" style="width:300px;" disabled>
+                </div>
+                <hr>
+                <h3>Favoriten</h3><br>
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div style="float:left; padding-top:4px">Favorit 1</div>
+                        <div class="fa fa-minus-circle fa-2x" style="float:right;"></div>
+                    </div>
+                </div>
+                <div class="panel panel-default">             
+                    <div class="panel-body">
+                        <div style="float:left; padding-top:4px">Favorit 2</div>
+                        <div class="fa fa-minus-circle fa-2x" style="float:right"></div>
+                    </div>
                 </div>
                 <!-- /.row -->
 

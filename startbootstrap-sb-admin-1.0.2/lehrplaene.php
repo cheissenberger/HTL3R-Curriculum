@@ -117,7 +117,58 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
- 
+                <div class="panel panel-default">
+                  <!-- Default panel contents -->
+                  <div class="panel-heading">Mechatronik</div>
+                  
+
+                  <!-- List group -->
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                    <div id="stundentafel">
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th>Name</th>
+                            <th>Richtung</th>
+                            <th>Status</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Lehrplan 1</td>
+                            <td>Medientechnik</td>
+                            <td>aktuell</td>
+                          </tr>
+                          <tr>
+                            <td>Lehrplan 2</td>
+                            <td>Medientechnik</td>
+                            <td>ausgelaufen</td>
+                          </tr>
+                          <tr>
+                            <td>Lehrplan 1</td>
+                            <td>Netzwerktechnik</td>
+                            <td>aktuell</td>
+                          </tr>
+                        </tbody>
+                      </table> 
+                        </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="panel panel-default">
+                  <!-- Default panel contents -->
+                  <div class="panel-heading">Fachschule</div>
+                 
+
+                  <!-- List group -->
+                  <ul class="list-group">
+                    <li class="list-group-item">
+                      
+                    </li>
+                    <li class="list-group-item">Lehrplan 2</li>
+                  </ul>
+                </div>
                 <!-- /.row -->
 
             </div>

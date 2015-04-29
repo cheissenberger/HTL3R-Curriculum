@@ -45,9 +45,7 @@
             margin: 30px;    
         }
 
-        .chooseweek>a:hover{
-            background-color: #07f9f9;
-        }
+
     </style>
 </head>
 
@@ -129,16 +127,15 @@
         </nav>
 
         <div id="page-wrapper">
-
             <div class="container-fluid">
-            <div id="lehrplaene_edit_lol">
+            <div id="lehrplaene_edit_lol" class="form-group">
                 <form name="edit_frm" action="editing.php" method="get">
-                    <select name="subject_sel">
+                    <select name="subject_sel" class="form-control">
                         <option>
                             Mathe
                         </option>
                     </select>
-                    <select name="jahrgang_sel">
+                    <select name="jahrgang_sel" class="form-control">
                         <option>
                             Jahrgang 1
                         </option>
@@ -146,12 +143,12 @@
                             Jahrgang 2
                         </option>
                     </select>
-                    <input type="submit" value="display" />
+                    <button type="submit" class="btn btn-default">Display</button>
                 </form>
                 <table class="table">
                 <thead>
                   <tr>
-                    <th>Woche</th>
+                    <th class="center">Woche</th>
                     <th>Description</th>
                     <th>Kalenderwoche</th>
                   </tr>

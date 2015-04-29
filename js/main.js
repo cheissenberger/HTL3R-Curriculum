@@ -1,4 +1,4 @@
-//Code to find out which week of the year it is
+ï»¿//Code to find out which week of the year it is
 //Created by Ferry van Schaik, who published this code on irt.org, from where it can be freely copied and used.
 //Modified for use on this website by Michael Langstöger
 

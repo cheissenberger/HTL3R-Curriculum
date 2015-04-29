@@ -37,6 +37,9 @@
         .top-nav>li>a {
             color:white;   
         }
+        .fav_clicked {
+            color:#CC0000;
+        }
     </style>
 </head>
 
@@ -135,7 +138,7 @@
                             <th>Name</th>
                             <th>Richtung</th>
                             <th>Status</th>
-                           
+                            <th class="non_hover"></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -143,19 +146,19 @@
                             <td>Lehrplan 1</td>
                             <td>Medientechnik</td>
                             <td>aktuell</td>
-							<td><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 2</td>
                             <td>Medientechnik</td>
                             <td>ausgelaufen</td>
-							<td><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 1</td>
                             <td>Netzwerktechnik</td>
                             <td>aktuell</td>
-							<td><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
                           </tr>
                         </tbody>
                       </table> 
@@ -189,6 +192,18 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script>
+    $(document).ready(function(){
+        $('.icon_favoriten').click(function(){
+            if ($(this).hasClass("fav_clicked")) {
+                $(this).removeClass("fav_clicked");
+            }
+            else {
+                $(this).addClass('fav_clicked');
+            }
+        });
+    });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

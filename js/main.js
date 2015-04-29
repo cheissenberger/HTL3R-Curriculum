@@ -1,6 +1,6 @@
 ï»¿//Code to find out which week of the year it is
 //Created by Ferry van Schaik, who published this code on irt.org, from where it can be freely copied and used.
-//Modified for use on this website by Michael Langstöger
+//Modified for use on this website by Michael Langstoeger
 
 function y2k(number) { return (number < 1000) ? number + 1900 : number; }
 

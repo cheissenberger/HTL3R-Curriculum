@@ -165,6 +165,9 @@
     <script src="js/plugins/morris/morris.min.js"></script>
     <script src="js/plugins/morris/morris-data.js"></script>
 
+	<!--Favortien-->
+	<script src="js/favoriten.js"></script>	
+		
 </body>
 
 </html>

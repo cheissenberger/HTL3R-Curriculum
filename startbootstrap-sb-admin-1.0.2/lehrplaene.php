@@ -147,19 +147,19 @@
                             <td>Lehrplan 1</td>
                             <td>Medientechnik</td>
                             <td>aktuell</td>
-							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart fa-lg icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 2</td>
                             <td>Medientechnik</td>
                             <td>ausgelaufen</td>
-							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart fa-lg icon_favoriten"></i></td>
                           </tr>
                           <tr>
                             <td>Lehrplan 1</td>
                             <td>Netzwerktechnik</td>
                             <td>aktuell</td>
-							<td class="non_hover"><i class="fa fa-heart icon_favoriten"></i></td>
+							<td class="non_hover"><i class="fa fa-heart fa-lg icon_favoriten"></i></td>
                           </tr>
                         </tbody>
                       </table> 

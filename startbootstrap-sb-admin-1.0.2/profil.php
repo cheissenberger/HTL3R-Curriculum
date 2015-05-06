@@ -119,7 +119,9 @@
 
         <div id="page-wrapper">
 
+
             <div class="container-fluid">
+                <h1>Andy Bichl</h1><br>
                 <h3>Profileinstellungen</h3><br>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Name:</label>

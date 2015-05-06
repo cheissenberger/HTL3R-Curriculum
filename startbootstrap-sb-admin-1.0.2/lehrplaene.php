@@ -57,7 +57,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html" style="color: white;">HTL3R-Curriculum</a>
+                <a class="navbar-brand" href="index.php" style="color: white;">HTL3R-Curriculum</a>
             </div>
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">

@@ -161,7 +161,7 @@
     <script>
     $(document).ready(function(){
         $('.icon_favoriten').click(function(){
-            $(this).parent().parent().remove();
+            $(this).parent().parent().fadeOut("fast");
         });
     });
     </script>

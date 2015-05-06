@@ -115,19 +115,76 @@
         </nav>
 
         <div id="page-wrapper">
-
+            
             <div class="container-fluid">
-                <div class="panel panel-primary" style="width:300px; float:left; margin:10px;">
-                    <div class="panel-heading" style="text-align:center;">
-                        <h3 class="panel-title">Lehrplan - Fach - Woche</h3>
-                    </div>
-                    <div class="panel-body" style="height:300px;">Inhalt des Gegenstand</div>
+                <div class="dropdown" style="margin:10px;">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+                    Filter
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Alle</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Mechatronik</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Medientechnik</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Netzwerktechnik</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Fachschule</a></li>
+                  </ul>
                 </div>
-                <div class="panel panel-primary" style="width:300px; float:left; margin:10px;">
+                <div class="panel panel-info" style="width:300px; float:left; margin:10px;">
                     <div class="panel-heading" style="text-align:center;">
-                        <h3 class="panel-title">Lehrplan - Fach - Woche</h3>
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
                     </div>
-                    <div class="panel-body" style="height:300px;">Inhalt des Gegenstand</div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-info" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-success" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-success" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-success" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-success" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-info" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou</div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
+                </div>
+                <div class="panel panel-success" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Naturwissenschaften - Mathematik - Woche 3</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Trigonometrie<hr>Inhalt des Gegenstand lorem ipsoum  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou  des Gegenstand lorem ipsou des Gegenstand lorem ipsou </div>
+                    <button class="btn btn-default" style="float:right;">Edit</button>
                 </div>
                 
                 <!-- /.row -->

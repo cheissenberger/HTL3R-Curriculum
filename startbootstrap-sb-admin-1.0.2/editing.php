@@ -128,14 +128,11 @@
 
         <div id="page-wrapper">
             <div class="container-fluid">
-            <div id="lehrplaene_edit_lol" class="form-group">
+            <h1>Mathe - Jahrgang 1</h1><br>
+                
                 <form name="edit_frm" action="editing.php" method="get">
-                    <select name="subject_sel" class="form-control">
-                        <option>
-                            Mathe
-                        </option>
-                    </select>
-                    <select name="jahrgang_sel" class="form-control">
+                    
+                    <select name="jahrgang_sel" class="form-control"  style="width: 180px; float:left; margin-right: 10px;" >
                         <option>
                             Jahrgang 1
                         </option>
@@ -143,14 +140,31 @@
                             Jahrgang 2
                         </option>
                     </select>
-                    <button type="submit" class="btn btn-default">Display</button>
+                    <select name="subject_sel" class="form-control" style="width: 180px; margin-right: 10px;" >
+                        <option>
+                            Naturwissenschaften
+                        </option>
+                        <option>
+                            Mathe
+                        </option>
+                    </select>
                 </form>
+                <br>
+            <h4>Schulwoche 21-30</h4>
+                <br>
+                
+                
+                
+            <div id="lehrplaene_edit_lol" class="form-group">
+
                 <table class="table">
                 <thead>
                   <tr>
                     <th class="center">Woche</th>
                     <th>Description</th>
+                    <th>Kompetenzbereich</th>
                     <th>Kalenderwoche</th>
+                    
                   </tr>
                 </thead>
                 <tbody>
@@ -158,16 +172,19 @@
                     <td>1</td>
                     <td>Sinuskurven for dumb people</td>
                     <td>90</td>
+                    <td>Drei</td> 
                   </tr>
                   <tr>
                     <td>2</td>
                     <td>Sinuskurven for dumb people</td>
                     <td>90</td>
+                    <td>Drei</td>
                   </tr>
                   <tr>
                     <td>3</td>
                     <td>Sinuskurven for dumb people</td>
                     <td>90</td>
+                    <td>Drei</td>
                   </tr>
                 </tbody>
               </table>

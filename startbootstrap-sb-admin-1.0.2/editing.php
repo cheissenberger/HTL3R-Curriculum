@@ -48,6 +48,11 @@
         tr {
             cursor: pointer; cursor: hand;
         }
+        
+        tr:hover {
+            background-color: #F5F5F5;
+        }
+        
 
     </style>
 </head>
@@ -263,7 +268,7 @@
             $("td").click(function() {
                 
                
-                $('.container-fluid').append('<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">&amp;times;</button><h4 class="modal-title" id="myModalLabel">Woche 2</h4></div><div class="modal-body"><h3>iwfowiejfiwjefoiwjefiowjefiowejfiowjfeoiwejfio</h3></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button><button type="button" class="btn btn-primary">Save changes</button></div></div></div></div>');
+                $('.container-fluid').append('<div class="modal fade" id="basicModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">Trigonometrie</button><h4 class="modal-title" id="myModalLabel">Woche 2</h4></div><div class="modal-body"><textarea style="width: 100%; height: 200px; border: none;"></textarea></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button><button type="button" class="btn btn-primary">Save changes</button></div></div></div></div>');
             
                 $('#basicModal').modal(options);
                     var options = {

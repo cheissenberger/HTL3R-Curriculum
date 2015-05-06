@@ -34,6 +34,9 @@
         .top-nav>li>a {
             color:white;   
         }
+		tr:hover {
+			background-color:#fafafa;
+		}
     </style>
 </head>
 

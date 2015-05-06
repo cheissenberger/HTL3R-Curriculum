@@ -123,6 +123,7 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
+			<div class="Week"></div>
                 <div class="panel panel-default">
                   <!-- Default panel contents -->
                   <div class="panel-heading">Mechatronik</div>
@@ -202,9 +203,13 @@
                 $(this).addClass('fav_clicked');
             }
         });
+		
+	$("div.Week").html('<p>Aktuelle Woche: '+getweeknumber()+'</p>');
     });
     </script>
 
+	<!--Main.js-->
+	<script src="js/main.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 

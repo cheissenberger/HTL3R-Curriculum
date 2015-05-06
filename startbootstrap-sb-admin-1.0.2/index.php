@@ -117,7 +117,19 @@
         <div id="page-wrapper">
 
             <div class="container-fluid">
-              
+                <div class="panel panel-primary" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Lehrplan - Fach - Woche</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Inhalt des Gegenstand</div>
+                </div>
+                <div class="panel panel-primary" style="width:300px; float:left; margin:10px;">
+                    <div class="panel-heading" style="text-align:center;">
+                        <h3 class="panel-title">Lehrplan - Fach - Woche</h3>
+                    </div>
+                    <div class="panel-body" style="height:300px;">Inhalt des Gegenstand</div>
+                </div>
+                
                 <!-- /.row -->
 
             </div>

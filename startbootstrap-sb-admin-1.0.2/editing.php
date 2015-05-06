@@ -170,30 +170,74 @@
                 <tbody>
                   <tr>
                     <td>1</td>
-                    <td>Sinuskurven for dumb people</td>
+                    <td>Test</td>
                     <td>90</td>
                     <td>Drei</td> 
                   </tr>
                   <tr>
                     <td>2</td>
+                    <td>erferf erver</td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                    <tr style="border: 3px solid lightgreen">
+                    <td>3</td>
+                    <td>Sinuskurven for ervervre people</td>
+                    <td>90</td>
+                    <td>50</td>
+                  </tr>
+                    <tr>
+                    <td>4</td>
+                    <td>wefwef for dumb people</td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                                  <tr>
+                    <td>5</td>
+                    <td>Sinuskurven for dumb people</td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                                  <tr>
+                    <td>6</td>
+                    <td>Sinuskurven for dumb people</td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                                  <tr>
+                    <td>7</td>
+                    <td></td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                                  <tr>
+                    <td>8</td>
+                    <td>Sinuskurven for dumb people</td>
+                    <td>90</td>
+                    <td>Drei</td>
+                  </tr>
+                                  <tr>
+                    <td>9</td>
                     <td>Sinuskurven for dumb people</td>
                     <td>90</td>
                     <td>Drei</td>
                   </tr>
                   <tr>
-                    <td>3</td>
+                    <td>10</td>
                     <td>Sinuskurven for dumb people</td>
                     <td>90</td>
                     <td>Drei</td>
                   </tr>
                 </tbody>
               </table>
-              <div class="chooseweek">
+              <div class="chooseweek"><br>
               <a href="#">1-10</a><a href="#">11-20</a><a href="#">21-30</a><a href="#">31-40</a>
               </div>
             </div>
                 <!-- /.row -->
 
+
+                
             </div>
             <!-- /.container-fluid -->
 
@@ -205,9 +249,33 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            
+            $("td").click(function() {
+                
+                $('.container-fluid').append();
+            
+                $('#basicModal').modal(options);
+                    var options = {
+                        "backdrop" : "static"
+                    }
+                
+               
+            });
+        });
+        
+        
+    $('#basicModal').modal(options);
+        var options = {
+    "backdrop" : "static"
+}
+    </script>
 
     <!-- Morris Charts JavaScript -->
     <script src="js/plugins/morris/raphael.min.js"></script>

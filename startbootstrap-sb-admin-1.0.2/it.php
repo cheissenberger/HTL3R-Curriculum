@@ -136,7 +136,7 @@
 				<tbody>
 				  <tr>
 					<td class="non_center">Mathematik</td>
-					<td>3</td>
+					<td><a href="editing.php">3</a></td>
 					<td>4</td>
 					<td>3</td>
 					<td>4</td>

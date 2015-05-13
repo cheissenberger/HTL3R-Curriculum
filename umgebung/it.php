@@ -162,7 +162,21 @@
 			  </table>
             </div>
                 <!-- /.row -->
-
+            <hr>
+            <p>Ein Freifach hinzufügen:</p>
+            <div class="input-group div_freifach">
+                <form action="" method="get" id="freifach_form">
+                    <input type="text" class="form-control" placeholder="Freifach" required name="freifach">
+                    <input type="text" class="form-control" placeholder="Stundenanzahl" required name="stunde1">
+                    <input type="text" class="form-control" placeholder="Stundenanzahl" required name="stunde2">
+                    <input type="text" class="form-control" placeholder="Stundenanzahl" required name="stunde3">
+                    <input type="text" class="form-control" placeholder="Stundenanzahl" required name="stunde4">
+                    <input type="text" class="form-control" placeholder="Stundenanzahl" required name="stunde5">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default but_haken" type="submit"><i class="glyphicon glyphicon-ok"></i></button>
+                    </span>
+                </form>
+            </div>
             </div>
             <!-- /.container-fluid -->
 
@@ -174,6 +188,21 @@
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.but_haken').click(function(){
+                var freifach = $(this).parent().parent().children().first().val();
+                var stunde1 = $(this).parent().parent().children().eq(1).val();
+                var stunde2 = $(this).parent().parent().children().eq(2).val();
+                var stunde3 = $(this).parent().parent().children().eq(3).val();
+                var stunde4 = $(this).parent().parent().children().eq(4).val();
+                var stunde5 = $(this).parent().parent().children().eq(5).val(); 
+                if(freifach.length > 0 && stunde1.length > 0 && stunde2.length > 0 && stunde3.length > 0 && stunde4.length > 0 && stunde5.length > 0){
+                $('#stundentafel').children().children().last().append('<tr><td class="non_center">'+freifach+'</td><td>'+stunde1+'</td><td>'+stunde2+'</td><td>'+stunde3+'</td><td>'+stunde4+'</td><td>'+stunde5+'</td></tr>');        }
+            });
+            
+        });
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

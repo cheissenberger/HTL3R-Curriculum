@@ -46,6 +46,10 @@ body {
     background-color: #fff;
 }
 
+.div_freifach{
+    margin: 2px;
+}
+
 .huge {
     font-size: 50px;
     line-height: normal;

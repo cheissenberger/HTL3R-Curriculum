@@ -136,10 +136,23 @@
 
         <div id="page-wrapper">
             <div class="container-fluid">
-            <h1>Mathe - Jahrgang 1</h1><br>
+            <h1>IT - Mathe - Jahrgang 1</h1><br>
                 
                 <form name="edit_frm" action="editing.php" method="get">
-                    
+                    <select name="jahrgang_sel" class="form-control"  style="width: 180px; float:left; margin-right: 10px;" >
+                        <option>
+                            Medientechnik
+                        </option>
+                        <option>
+                            Netzwerktechnik
+                        </option>
+                        <option>
+                            Mechatronik
+                        </option>
+                        <option>
+                            Fachschule
+                        </option>
+                    </select>
                     <select name="jahrgang_sel" class="form-control"  style="width: 180px; float:left; margin-right: 10px;" >
                         <option>
                             Jahrgang 1

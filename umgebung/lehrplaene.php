@@ -40,6 +40,9 @@
         .fav_clicked {
             color:#CC0000;
         }
+		tr:hover {
+			background-color:#fafafa;
+		}
     </style>
 </head>
 
